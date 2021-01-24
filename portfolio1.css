@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(18, 18, 172);
+    font-family: 'roboto', sans-serif;
+}
+
+.myportfolio {
+    font-family: 'roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: #9fa81e 2px 0 2px;
+    font-size: xx-large;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 55px;
+    list-style: none;
+    width: 1250px;
+    padding-right: 15px;
+    font-size: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.menu a {
+    color: rgb(190, 145, 46);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 370;
+}
+
+.CCC :hover {
+    color: rgb(43, 226, 119);
+}
+
+.CCC :link {
+    color: rgb(255, 255, 255);
+}
+
+.CCC :visited {
+    color: rgb(255, 255, 255);
+}
+
+.CCC :active {
+    color: rgb(233, 78, 78);
+}
+
+.menu-sub {
+    display: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.film {
+    display: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.menu-sub li:hover>ul {
+    display: block;
+}
+
+.aboutme {
+    margin-top: 80px;
+    margin-left: 5%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.aboutmetext {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.ytu {
+    width: 840px;
+    height: 526px;
+    box-shadow: 0 0 3px rgb(39, 92, 207);
+}
+
+.ytuu {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.anhbt {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    width: 25%;
+    height: 260px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+img {
+    transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.footer {
+    width: 90%;
+}
+
+.contactinfo {
+    color: floralwhite;
+}
+
+.contacth2 {
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.contactmei {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#acc {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: floralwhite;
+}
+
+.logintix {
+    padding-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+#buttonn {
+    width: 102px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: darkcyan;
+}
+
+.contactmxh {
+    width: 20px;
+    height: 20px;
+    color: floralwhite;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contactmxh {
+    position: fixed;
+    top: 350px;
+    right: 20px;
+}
+
+.lentop {
+    width: 20px;
+    height: 20px;
+    color: rgb(247, 247, 247);
+    font-size: 40px;
+    font-weight: 900;
+    position: fixed;
+    top: 550px;
+    right: 20px;
+}
+
+.fa-arrow-circle-up:before {
+    color: rgb(241, 235, 235);
+}
